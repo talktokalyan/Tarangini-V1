@@ -1,1 +1,1 @@
-web: gunicorn Tarangini-V1.wsgi --log-file -
+web: gunicorn main.wsgi --log-file -
