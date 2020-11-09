@@ -49,12 +49,14 @@ CONTENT_STYLE = {
     "margin-left": "20rem",
     "margin-right": "2rem",
     "padding": "5rem 1rem",
-    "color" : "black",
+    "color" : "gold",
+    "background-color": "grey",
+
 }
 
 sidebar = html.Div(
     [
-        html.H2("Tarangini", className="display-4"),
+        html.H2("Tarangini (Beta)", className="display-4"),
         html.Hr(),
         html.P("Simulation & visualization for Economics & Econometrics", className="lead"),
         dbc.Nav(
