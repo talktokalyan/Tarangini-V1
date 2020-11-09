@@ -350,4 +350,4 @@ def update_output_page4(n_clicks,var_cost_value,fix_cost_value, xmax_value):
 
 
 if __name__ == "__main__":
-    app.run_server()
+   app = app()
