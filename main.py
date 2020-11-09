@@ -78,11 +78,6 @@ content = html.Div(id="page-content", style=CONTENT_STYLE)
 # App Layout
 app.layout = html.Div([dcc.Location(id="url"), sidebar, content])
 
-# Example figure
-colors = {'background': '#111111','text': '#7FDBFF'}
-df = pd.DataFrame({"x": [1, 2, 3], "SF": [4, 1, 2], "Montreal": [2, 4, 5]})
-fig = px.bar(df, x="x", y=["SF", "Montreal"], barmode="group")
-fig.update_layout(plot_bgcolor=colors['background'], paper_bgcolor=colors['background'], font_color=colors['text'])
 
 # List of Distributions -P1, P2
 dist_list = ['Normal', 'Uniform', 'Binomial', 'Poisson', 'Logistic', 'Multinomial', 'Exponential', 'Chi-square', 'Rayleigh', 'Pareto', 'Zipf' ]
