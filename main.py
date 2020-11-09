@@ -49,7 +49,7 @@ CONTENT_STYLE = {
     "margin-left": "20rem",
     "margin-right": "2rem",
     "padding": "5rem 1rem",
-    "color" : "white",
+    "color" : "black",
 }
 
 sidebar = html.Div(
