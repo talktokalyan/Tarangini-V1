@@ -30,6 +30,7 @@ from codebase.econcost_dash import *
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
+server = app.server
 
 # the style arguments for the sidebar. We use position:fixed and a fixed width
 SIDEBAR_STYLE = {
@@ -350,4 +351,4 @@ def update_output_page4(n_clicks,var_cost_value,fix_cost_value, xmax_value):
 
 
 if __name__ == "__main__":
-   app = app()
+   app.run_server()
